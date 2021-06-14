@@ -1,0 +1,86 @@
+/* reset */
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+
+/* utils */
+
+body {
+    margin: 0 auto;
+    background-color: black;
+    height: 100vh;
+}
+
+.flex {
+    display: flex;
+}
+
+
+/* header */
+
+header {
+    height: 10%;
+    justify-content: flex-end;
+    padding: 5px;
+}
+
+.button {
+    background-color: gray;
+    color: white;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 5px 10px;
+}
+
+.button:hover {
+    transform: scale(1.03);
+    cursor: pointer;
+}
+
+.button:active {
+    transform: scale(1);
+}
+
+
+/* main */
+
+main {
+    overflow-y: scroll;
+    height: 75%;
+}
+
+.users-container {
+    padding: 0 50px;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.user-box {
+    background-image: url(../img/910-246x146.jpg);
+    width: 230px;
+    height: 150px;
+    margin: 5px;
+    background-size: cover;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+main i {
+    color: white;
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 5px;
+    width: 115px;
+}
+
+
+/* footer */
+
+footer {
+    height: 15%;
+    background-color: gray;
+}
