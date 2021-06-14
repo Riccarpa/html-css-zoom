@@ -19,6 +19,10 @@ body {
     display: flex;
 }
 
+#green {
+    color: forestgreen;
+}
+
 
 /* header */
 
@@ -82,5 +86,47 @@ main i {
 
 footer {
     height: 15%;
-    background-color: gray;
+    background-color: rgb(51, 49, 49);
+    padding: 20px;
+}
+
+div.footer.flex {
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+
+.col.center {
+    flex-grow: 1;
+    text-align: center;
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
+
+.room-set {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+h2 {
+    font-size: 14px;
+}
+
+footer i:hover {
+    transform: scale(1.1);
+}
+
+footer i:active {
+    transform: scale(1);
+}
+
+.footer i {
+    color: white;
+    font-size: 30px;
+    margin: 5px;
+}
+
+.footer i.fa-chevron-up {
+    font-size: 15px;
 }
