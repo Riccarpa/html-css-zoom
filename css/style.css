@@ -87,7 +87,7 @@ main i {
 footer {
     height: 15%;
     background-color: rgb(51, 49, 49);
-    padding: 20px;
+    padding-left: 20px;
 }
 
 div.footer.flex {
@@ -113,11 +113,11 @@ h2 {
     font-size: 14px;
 }
 
-footer i:hover {
-    transform: scale(1.1);
+footer .room-set:hover {
+    transform: scale(1.05);
 }
 
-footer i:active {
+footer .room-set:active {
     transform: scale(1);
 }
 
@@ -129,4 +129,16 @@ footer i:active {
 
 .footer i.fa-chevron-up {
     font-size: 15px;
+}
+
+footer nav:last-child {
+    color: red;
+    background-color: gray;
+    height: 100%;
+    padding: 15px;
+    align-items: center;
+}
+
+footer nav:last-child:hover {
+    filter: brightness(1.5);
 }
