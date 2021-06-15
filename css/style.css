@@ -96,6 +96,11 @@ div.footer.flex {
     height: 100%;
 }
 
+footer nav:first-child {
+    display: flex;
+    align-items: center;
+}
+
 .col.center {
     flex-grow: 1;
     text-align: center;
@@ -116,6 +121,7 @@ h2 {
 
 footer .room-set:hover {
     transform: scale(1.05);
+    cursor: pointer;
 }
 
 footer .room-set:active {
@@ -142,4 +148,5 @@ footer nav:last-child {
 
 footer nav:last-child:hover {
     filter: brightness(1.5);
+    cursor: pointer;
 }
